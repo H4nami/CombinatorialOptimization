@@ -1,3 +1,6 @@
+#This script generates an "index, value, weight" instance to use with the heuristics
+#You can run the script the next way
+#generator.py <number of instances> <number of items> <min weight> <max weight> <min value> <max value>
 from sys import argv
 import random
 from math import ceil
